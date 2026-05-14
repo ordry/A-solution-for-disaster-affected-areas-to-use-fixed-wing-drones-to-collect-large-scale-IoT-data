@@ -1,0 +1,11 @@
+clc;clear;
+c1=9.26*10^-4;
+c2=2240;
+g=9.8;
+R=30;
+syms v;
+f=c1*v^3+c2/v+c2*v^3/(R^2*g^2);
+Fdiff=diff(f,v);
+h=solve(Fdiff==0);
+h=double(h);
+P=double(subs(f,v,h));
