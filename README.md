@@ -1,0 +1,1 @@
+# A-solution-for-disaster-affected-areas-to-use-fixed-wing-drones-to-collect-large-scale-IoT-data
